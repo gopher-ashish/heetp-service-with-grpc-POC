@@ -1,6 +1,6 @@
 package service
 
-import "github.com/PersonalGithubAccount/http-service-with-grpc-POC/model"
+import "github.com/model"
 
 type additionResponse struct {
 	Result uint `json:"result"`

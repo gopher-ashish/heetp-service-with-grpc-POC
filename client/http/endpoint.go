@@ -3,8 +3,8 @@ package http
 import (
 	"net/http"
 
-	"github.com/PersonalGithubAccount/http-service-with-grpc-POC/client/service"
-	"github.com/PersonalGithubAccount/http-service-with-grpc-POC/internal/util"
+	"github.com/client/service"
+	"github.com/internal/util"
 )
 
 func (h ClientHanlder) addUser(w http.ResponseWriter, req *http.Request) {

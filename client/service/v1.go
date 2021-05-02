@@ -4,9 +4,9 @@ import (
 	"context"
 	"log"
 
-	grpcb "github.com/PersonalGithubAccount/http-service-with-grpc-POC/protopb"
+	grpcb "github.com/protopb"
 
-	"github.com/PersonalGithubAccount/http-service-with-grpc-POC/model"
+	"github.com/model"
 )
 
 type clientService struct {

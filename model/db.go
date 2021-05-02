@@ -1,6 +1,6 @@
 package model
 
-import "github.com/PersonalGithubAccount/http-service-with-grpc-POC/internal/connection"
+import "github.com/internal/connection"
 
 func MigrateDB(db connection.ConnectionPool) {
 	drop(db)

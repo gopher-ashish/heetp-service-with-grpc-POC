@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/PersonalGithubAccount/http-service-with-grpc-POC/internal/connection"
+	"github.com/internal/connection"
 )
 
 type User struct {

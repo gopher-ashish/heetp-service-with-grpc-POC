@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"github.com/PersonalGithubAccount/http-service-with-grpc-POC/model"
+	"github.com/model"
 )
 
 type ClientServiceInterface interface {

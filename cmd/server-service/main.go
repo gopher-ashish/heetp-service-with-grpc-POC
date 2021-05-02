@@ -6,7 +6,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/PersonalGithubAccount/http-service-with-grpc-POC/protopb"
+	"github.com/protopb"
 	"google.golang.org/grpc"
 )
 

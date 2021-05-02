@@ -3,14 +3,14 @@ package main
 import (
 	"log"
 
-	"github.com/PersonalGithubAccount/http-service-with-grpc-POC/app/routes"
-	clientHanlder "github.com/PersonalGithubAccount/http-service-with-grpc-POC/client/http"
-	"github.com/PersonalGithubAccount/http-service-with-grpc-POC/client/service"
-	"github.com/PersonalGithubAccount/http-service-with-grpc-POC/config"
-	"github.com/PersonalGithubAccount/http-service-with-grpc-POC/internal/connection"
-	"github.com/PersonalGithubAccount/http-service-with-grpc-POC/model"
+	"github.com/app/routes"
+	clientHanlder "github.com/client/http"
+	"github.com/client/service"
+	"github.com/config"
+	"github.com/internal/connection"
+	"github.com/model"
 
-	grpcb "github.com/PersonalGithubAccount/http-service-with-grpc-POC/protopb"
+	grpcb "github.com/protopb"
 
 	"google.golang.org/grpc"
 )

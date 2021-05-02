@@ -3,8 +3,8 @@ package service
 import (
 	"net/http"
 
-	"github.com/PersonalGithubAccount/http-service-with-grpc-POC/internal/util"
-	"github.com/PersonalGithubAccount/http-service-with-grpc-POC/model"
+	"github.com/internal/util"
+	"github.com/model"
 )
 
 type UserForm struct {

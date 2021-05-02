@@ -1,7 +1,7 @@
 package http
 
 import (
-	"github.com/PersonalGithubAccount/http-service-with-grpc-POC/client/service"
+	"github.com/client/service"
 
 	"github.com/gorilla/mux"
 )

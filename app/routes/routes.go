@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"net/http/httputil"
 
-	clientHandler "github.com/PersonalGithubAccount/http-service-with-grpc-POC/client/http"
+	clientHandler "github.com/client/http"
 
 	"github.com/gorilla/mux"
 	log "github.com/sirupsen/logrus"
