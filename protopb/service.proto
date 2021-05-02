@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package testing;
+
+option go_package = "protopb";
+
+
+message EmailRequest {
+   string email = 1;
+}
+
+message EmailResponse {
+     string email = 1;
+}
+
+service Sum {
+    // unary rpc service
+    rpc WelcomeEmail(EmailRequest) returns (EmailResponse){}
+}
