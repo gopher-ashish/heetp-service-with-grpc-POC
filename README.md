@@ -18,16 +18,18 @@ note := Make sure the database URL is correct and that database is exist in your
 
   i. to create user  POST
     ---- http://localhost:9003/v1/user/create/
+
     body --
-          {
-              "username": "helloUser",
-              "name": "hello",
-              "email": "ashish@gmail.com"
-      }
+         
+         {
+              "username": "ashish",
+              "name": "ashish",
+              "email": "ashis.nik16h@gmail.com"
+         }
 
   ii.
       to get existing users GET
-    --- http://localhost:9003/v1/user/create/
+    --- http://localhost:9003/v1/user/
 
 
 # You can also run the project using makefile
