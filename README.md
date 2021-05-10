@@ -13,6 +13,8 @@ note := Make sure the database URL is correct and that database is exist in your
 2. Source .env file (change file env vars as per you configuration)
 
 3. cd cmd/server and run server
+
+    Currently server just pront the message and resture response with message string, havent im plimented email service yet.
 4. cd cmd/clinet and run clinet
 5. open postman and user following APIS
 
