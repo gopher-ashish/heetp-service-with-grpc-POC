@@ -34,6 +34,8 @@ func main() {
 // WelcomeEmail returns welcome
 func (*server) WelcomeEmail(ctx context.Context, req *protopb.EmailRequest) (*protopb.EmailResponse, error) {
 	email := req.GetEmail()
+	
+	//TODO: impliment email service
 	log.Print("received request for ", email)
 	newMessage := fmt.Sprintf("your new account has been created using email %s. Welcome!", email)
 	return &protopb.EmailResponse{Email: newMessage}, nil
